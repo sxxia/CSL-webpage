@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <title>Wichita State Univeristy Communication Systems Lab</title>
+</head>
+
+<body>
+    <!--==>S 网站头部区域-->
+    <div class="h-header">
+        <!--S 顶部的用户导航区域 -->
+        <div class="top-nav">
+            <!-- 网站logo -->
+            <div class="logo">
+                <!-- h1标题仅仅用于网站SEO优化, 不用于显示给用户看 -->
+                <h1>Wichita State Univeristy Communication Systems Lab</h1>
+                <a href="#">
+                    <img src="./images/logo.png" alt="logo" title="Wichita State Univeristy Communication Systems Lab">
+                </a>
+            </div>
+            <!-- 右边用户导航 -->
+            <div class="user-nav">
+                <ul class="clearfix">
+                    <!-- 消息框 -->
+                    <!-- <li class="message user-nav-item"></li> -->
+                    <!-- 用户头像和用户名 -->
+                    <li class="user user-nav-item">
+                        <a href="#">
+                            <img src="./images/shocker.jpg" class="shocker" alt="shocker" title="shocker">
+                        </a>
+                        <div class="username">Shockers
+                            <i class="triangle-down icon"></i>
+                            <ul class="user-menu-cover triangle-up-s cover">
+                                <li><a href="#">myWSU</a></li>
+                                <li><a href="#">Profile</a></li>
+                                <li><a href="#">Setting</a></li>
+                                <li><a href="#">Log out</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <!-- 选择教授端 -->
+                    <li class="user-nav-item">
+                        <a href="#">Faculty <i class="triangle-down icon"></i></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- search栏 -->
+            <div class="search">
+                <!-- 如果a与img在同一行的话,两个标签之间就不会有空格 -->
+                <div class="course-select">Course<i class="triangle-down icon-select"></i>
+                    <ul class="course-menu cover">
+                        <li><a href="#">Course</a></li>
+                        <li><a href="#">Book</a></li>
+                    </ul>
+                </div>
+                <input type="text">
+                <a href="#" class="icon-search"></a>
+            </div>
+        </div>
+    </div>
+    <!--E 顶部的用户导航区域 -->
+
+    <!--S 主导航区域 -->
+    <div class="site-nav">
+        <!-- 右侧背景盒子 -->
+        <div class="bg-red-wrap">
+            <!-- 右侧背景子盒子, 是父盒子的50% -->
+            <div class="bg-red"></div>
+        </div>
+        <div class="site-nav-wrap">
+            <!-- 网站的主导航区域 -->
+            <div class="main-nav">
+                <ul class="main-nav-list">
+                    <li class="menu-item"><a href="#" class="cur">HOME</a></li>
+                    <li class="menu-item"><a href="#">RESEARCH</a></li>
+                    <li class="menu-item"><a href="#">PUBLICATIONS</a></li>
+                    <li class="menu-item"><a href="#">TEAM</a></li>
+                </ul>
+            </div>
+
+            <!-- 导航条的右侧的链接 -->
+            <div class="aside-nav clearfix">
+                <ul class="aside-nav-list">
+                    <li><a href="#">USEFULL LINK</a></li>
+                    <li>|</li>
+                    <li><a href="#">JOIN US</a></li>
+                    <li><a href="#">CONTACT US</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--E 主导航区域 -->
+
+    <!--==>E 网站头部区域-->
+
+    <!--==>S 网站banner区域-->
+    <div class="h-banner">
+        <div class="banner-wrap">
+            <a href="#"><img class="banner-img" src="./images/banner.jpg" alt=""></a>
+        </div>
+    </div>
+    <!--==>E 网站banner区域-->
+
+    <!--==>S 网站main区域-->
+    <div class="h-main">
+        <!-- 课程列表 -->
+        <div class="course-list p-module">
+            <!-- 课程列表顶部 -->
+            <div class="p-module-head clearfix">
+                <!--因为子元素都浮动了, 所以要闭合浮动, 用clearfix -->
+                <div class="p-module-title">
+                    <h3>Recommended Courses</h3>
+                </div>
+                <a href="#" class="p-module-more">more...</a>
+            </div>
+
+
+            <div class="p-module-body clearfix">
+                <ul class="p-list">
+                    <li class="p-list-item">
+                        <div class="p-img">
+                            <img src="./images/programming.png" alt="">
+                        </div>
+                        <div class="p-name">
+                            <a href="#">CN-510 Programming Language Concepts</a>
+                        </div>
+                    </li>
+                    <li class="p-list-item">
+                        <div class="p-img">
+                            <img src="./images/Operating-Systems.png" alt="">
+                        </div>
+                        <div class="p-name">
+                            <a href="#">CN-540 Operating System</a>
+                        </div>
+                    </li>
+                    <li class="p-list-item">
+                        <div class="p-img">
+                            <img src="./images/database.jpg" alt="">
+                        </div>
+                        <div class="p-name">
+                            <a href="#">CN-665 Introduction to Database Systems</a>
+                        </div>
+                    </li>
+                    <li class="p-list-item">
+                        <div class="p-img">
+                            <img src="./images/machine-learning.png" alt="">
+                        </div>
+                        <div class="p-name">
+                            <a href="#">CN-697AB Machine Learning</a>
+                        </div>
+                    </li>
+                    <li class="p-list-item">
+                        <div class="p-img">
+                            <img src="./images/algorithm.jpg" alt="">
+                        </div>
+                        <div class="p-name">
+                            <a href="#">CN-697Q Advanced Algorithms and Analysis</a>
+                        </div>
+                    </li>
+                    <li class="p-list-item">
+                        <div class="p-img">
+                            <img src="./images/math.png" alt="">
+                        </div>
+                        <div class="p-name">
+                            <a href="#">CN-731 Mathematical Foundations for Computer Networking</a>
+                        </div>
+                    </li>
+                    <li class="p-list-item">
+                        <div class="p-img">
+                            <img src="./images/c-network.jpg" alt="">
+                        </div>
+                        <div class="p-name">
+                            <a href="#">CN-737 Wireless Networking</a>
+                        </div>
+                    </li>
+                    <li class="p-list-item">
+                        <div class="p-img">
+                            <img src="./images/routing1.jpg" alt="">
+                        </div>
+                        <div class="p-name">
+                            <a href="#">CN-764 Routing and Switching I</a>
+                        </div>
+                    </li>
+                    <li class="p-list-item">
+                        <div class="p-img">
+                            <img src="./images/Network-Security.jpg" alt="">
+                        </div>
+                        <div class="p-name">
+                            <a href="#">CN-767 Foundations of Network Security</a>
+                        </div>
+                    </li>
+                    <li class="p-list-item">
+                        <div class="p-img">
+                            <img src="./images/ai.png" alt="">
+                        </div>
+                        <div class="p-name">
+                            <a href="#">CN-771 Artificial Intelligence</a>
+                        </div>
+                    </li>
+                    <li class="p-list-item">
+                        <div class="p-img">
+                            <img src="./images/ad-hoc-networks.jpg" alt="">
+                        </div>
+                        <div class="p-name">
+                            <a href="#">CN-835 Ad Hoc and Sensor Networks</a>
+                        </div>
+                    </li>
+                    <li class="p-list-item">
+                        <div class="p-img">
+                            <img src="./images/data.png" alt="">
+                        </div>
+                        <div class="p-name">
+                            <a href="#">CN-898D Data Mining</a>
+                        </div>
+                    </li>
+                    <li class="p-list-item">
+                        <div class="p-img">
+                            <img src="./images/5g.jpg" alt="">
+                        </div>
+                        <div class="p-name">
+                            <a href="#">CN-726 Digital Communication Systems I</a>
+                        </div>
+                    </li>
+                    <li class="p-list-item">
+                        <div class="p-img">
+                            <img src="./images/p1.gif" alt="">
+                        </div>
+                        <div class="p-name">
+                            <a href="#">CN-754 Probabilistic Methods in Systems</a>
+                        </div>
+                    </li>
+                    <li class="p-list-item">
+                        <div class="p-img">
+                            <img src="./images/wireless.jpg" alt="">
+                        </div>
+                        <div class="p-name">
+                            <a href="#">CN-986 Wireless Spread-Spectrum Communication</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- 教材列表 -->
+        <div class="book-list p-module">
+            <div class="p-module-head clearfix">
+                <!--因为子元素都浮动了, 所以要闭合浮动, 用clearfix -->
+                <div class="p-module-title">
+                    <h3>Reference Books</h3>
+                </div>
+                <a href="#" class="p-module-more">more...</a>
+            </div>
+            <div class="p-module-body clearfix">
+                <ul class="p-list">
+                    <li class="p-list-item">
+                        <div class="p-img">
+                            <img src="./images/programming-b.jpg" alt="">
+                        </div>
+                        <div class="p-name">
+                            <a href="#">Programming Language Concepts</a>
+                        </div>
+                    </li>
+                    <li class="p-list-item">
+                        <div class="p-img">
+                            <img src="./images/operating-b.jpg" alt="">
+                        </div>
+                        <div class="p-name">
+                            <a href="#">Operating System Conepts</a>
+                        </div>
+                    </li>
+                    <li class="p-list-item">
+                        <div class="p-img">
+                            <img src="./images/database-b.png" alt="">
+                        </div>
+                        <div class="p-name">
+                            <a href="#">Database Fundamentals</a>
+                        </div>
+                    </li>
+                    <li class="p-list-item">
+                        <div class="p-img">
+                            <img src="./images/machine-b.jpg" alt="">
+                        </div>
+                        <div class="p-name">
+                            <a href="#">Machine Learning</a>
+                        </div>
+                    </li>
+                    <li class="p-list-item">
+                        <div class="p-img">
+                            <img src="./images/wireless-b.jpg" alt="">
+                        </div>
+                        <div class="p-name">
+                            <a href="#">Wireless Communications</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--==>E 网站main区域-->
+
+    <!--==>S 网站footer区域-->
+    <div class="h-footer">
+        <p>Copyright &copy Shuang Xia. All rights reserved. </p>
+    </div>
+    <!--==>E 网站footer区域-->
+</body>
+
+</html>
